@@ -81,7 +81,7 @@ Um arquivo de referência foi adicionado:
 ## ▶️ Como Executar o Projeto
 
 1️⃣ Clonar o repositório
-- git clone https://github.com/seu-usuario/login-arth-api.git
+- git clone https://github.com/deffmain/login-backend-spring
 
 2️⃣ Executar com Maven
 - mvn spring-boot:run 
