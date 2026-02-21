@@ -22,12 +22,16 @@ O objetivo é consolidar conceitos de autenticação, segurança, arquitetura em
 
 ## 📁 Estrutura do Projeto
 com.example.login_arth_api
-│
-├── controllers # Camada de controle (REST endpoints)
-├── domain.user # Entidades JPA
-├── dto # Data Transfer Objects
-├── infra.security # Configurações de segurança e JWT
-└── repository # Repositórios JPA
+
+- controllers # Camada de controle (REST endpoints)
+
+- domain.user # Entidades JPA
+
+- dto # Data Transfer Objects
+
+- infra.security # Configurações de segurança e JWT
+
+- repository # Repositórios JPA
 
 
 ---
@@ -84,8 +88,17 @@ Um arquivo de referência foi adicionado:
 
 3️⃣ Testar API com Postman/Insomnia
 - Utilize ferramentas como Postman ou Insomnia para testar os endpoints REST da aplicação.
-## 🏗️ Arquitetura
 
+
+## 🧪 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /auth/register | Register user |
+| POST | /auth/login | Login and get JWT |
+| GET | /users | Protected route example |
+
+## 🏗️ Arquitetura
 - Controller → recebe requisições REST
 
 - DTO → transporte de dados
